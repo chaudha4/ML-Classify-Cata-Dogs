@@ -25,6 +25,12 @@ your dependencies, not just direct dependencies.
 Strictly specifying only some dependencies is a recipe for environments
 breaking over time.
 
+```
+pip install pip-tools
+
+pip-compile
+```
+
 [pip-compile](https://github.com/jazzband/pip-tools/) is a handy
 tool for combining loosely specified dependencies with a fully frozen environment.
 You write a requirements.in with just the dependencies you need
