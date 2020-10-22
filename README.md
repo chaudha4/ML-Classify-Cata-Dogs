@@ -1,6 +1,10 @@
-# Python environment with a requirements.txt
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master?filepath=cat_dog_image_classifier.ipynb)
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/requirements/master)
+# Machine Learning with Python - Cat and Dog Image Classifier
+
+This Project uses TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs with at least 63% accuracy.
+
+# Python environment
 
 A Binder-compatible repo with a `requirements.txt` file.
 
