@@ -5,7 +5,7 @@
 
 This Project uses TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs with at least 63% accuracy.
 
-If you want to use a pre-trained model, just launch the [index](./index.ipynb) notbook.
+If you want to use a pre-trained model, just launch the [index.ipynb](./index.ipynb) notebook.
 
 For training the model with additional dataset, go to the [cat_dog_image_classifier.ipynb](./cat_dog_image_classifier.ipynb)
 
