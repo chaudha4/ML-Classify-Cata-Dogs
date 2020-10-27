@@ -1,4 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master?filepath=cat_dog_image_classifier.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master)
 
@@ -6,14 +5,17 @@
 
 This Project uses TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs with at least 63% accuracy.
 
+If you want to use a pre-trained model, just launch the [index](./index.ipynb) notbook.
+
+For training the model with additional dataset, go to the [cat_dog_image_classifier.ipynb](./cat_dog_image_classifier.ipynb)
+
 # Python environment
 
 A Binder-compatible repo with a `requirements.txt` file.
 
 Access this Binder at the following URL
 
-http://mybinder.org/v2/gh/binder-examples/requirements/master
-
+https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master
 
 
 ## Install pip-tools
@@ -39,8 +41,7 @@ pip-compile
 After you run `pip-compile`, your requirements.txt should be updated and is ready for use.
 
 ## Install packages
-The `requirements.txt` file should list all Python libraries that your notebooks
-depend on, and they will be installed using:
+The `requirements.txt` file should list all Python libraries that your notebooks depend on, and they will be installed using:
 
 ```
 pip3 install -r requirements.txt
