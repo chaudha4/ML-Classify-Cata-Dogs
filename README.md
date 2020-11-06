@@ -1,5 +1,10 @@
 
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://chaudha4-cat-or-dog.herokuapp.com/)
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master)
+
 
 # Machine Learning with Python - Cat and Dog Image Classifier
 
@@ -8,6 +13,10 @@ This Project uses TensorFlow 2.0 and Keras to create a convolutional neural netw
 If you want to use a pre-trained model, just launch the [index.ipynb](./index.ipynb) notebook.
 
 For training the model with additional dataset, go to the [cat_dog_image_classifier.ipynb](./cat_dog_image_classifier.ipynb)
+
+## Model Summary
+
+![GitHub Logo](model.png)
 
 # Python environment
 
@@ -68,7 +77,6 @@ For testing purpose, you can use the built-in flask web server. Just run the mai
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  ```
 
-
 # Heroku Deployment
 Heroku relies on `Procfile` to start the service. We use Web Server Gateway Interface (WSGI) server called Green Unicorn, commonly shortened to "Gunicorn" for production deployment.
 
@@ -79,3 +87,13 @@ To locally start a particular process type, specify the process type. For exampl
 ```
 heroku local web
 ```
+
+## Heroku Production deployment
+View logs on a deployed instance.
+```
+heroku logs -n 200 --app chaudha4-cat-or-dog
+heroku logs --tail --app chaudha4-cat-or-dog
+
+```
+
+![GitHub Logo](Screenshot.png)

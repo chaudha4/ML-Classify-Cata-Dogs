@@ -106,7 +106,7 @@ def print_prediction(predictions):
         % (100 * (1 - score), 100 * score)
     )
 
-model = restore_model(verbose=True)    
+model = restore_model(verbose=True)
+
 if __name__ == "__main__":
-    #model = restore_model(verbose=True)
     app.run(debug=True)
