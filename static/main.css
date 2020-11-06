@@ -1,0 +1,59 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(244, 244, 244);
+    color: #333;
+    border-radius: 2rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.container {
+	margin: 4% 4%;
+	max-width: 90%;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+	padding: 2% 2%;
+	border-radius: 1rem;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.menu {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.predict-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+    margin: 4% 4%;
+}
+
+.results {
+    align-items: center;
+    text-align: center;
+    padding: 2% 2%;
+    margin: 4% 4%;
+}

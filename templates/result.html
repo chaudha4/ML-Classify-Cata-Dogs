@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat or Dog - Prediction</title>
+  </head>
+  <body>
+    {% extends "upload.html" %}
+    {% block content %}
+        {{ super() }}
+        <div class="results">
+          <img src="{{image}}" alt="{{image}}" width="40%" height="40%" />
+          <p> {{ result }} </p>
+        </div>
+    {% endblock %}
+
+  </body>
+</html>

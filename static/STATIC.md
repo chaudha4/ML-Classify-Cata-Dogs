@@ -1,0 +1,1 @@
+The Flask Framework looks for static files (CSS, JavaScript, images) in this folder.

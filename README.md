@@ -17,6 +17,8 @@ Access this Binder at the following URL
 
 https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master
 
+## Check what is already installed
+Use `pip3 list` to see a list of installed packages.
 
 ## Install pip-tools
 Before you can use `pip-compile`, you need to make sure that `pip-tools` is installed.

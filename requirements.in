@@ -4,3 +4,4 @@ seaborn==0.10.1
 pandas
 tensorflow
 pillow
+flask
