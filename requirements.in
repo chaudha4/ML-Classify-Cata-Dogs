@@ -5,3 +5,4 @@ pandas
 tensorflow
 pillow
 flask
+gunicorn
