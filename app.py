@@ -55,14 +55,16 @@ def upload_file():
     return render_template("upload.html")
 
 
-def restore_model(name="trained_model_96percent_accurate", verbose=False):
+def restore_model(name="trained_model_96percent_accurate.h5", verbose=False):
     if not os.path.exists(name):
         raise Exception(f"Cannot find {name} model to restore.")
     
     model = tf.keras.models.load_model(name)
     
     if verbose:
-        model.summary()
+        print("\n")
+        print(model.summary())
+        print("\n")
     
     return model
 
@@ -107,7 +109,7 @@ def print_prediction(predictions):
         % (100 * (1 - score), 100 * score)
     )
 
-model = restore_model(verbose=True)
+model = restore_model()
 
 if __name__ == "__main__":
     app.run(debug=True)

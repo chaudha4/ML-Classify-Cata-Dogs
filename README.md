@@ -92,9 +92,13 @@ heroku local web
 View logs on a deployed instance.
 ```
 heroku logs -n 200 --app chaudha4-cat-or-dog
-heroku logs --tail --app chaudha4-cat-or-dog
-
 ```
+View logs realtime on deployed instance.
+```
+heroku logs --tail --app chaudha4-cat-or-dog
+```
+On Browser, you can access logs here - 
+https://dashboard.heroku.com/apps/chaudha4-cat-or-dog/logs
 
 ![GitHub Logo](Screenshot.png)
 
