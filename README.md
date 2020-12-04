@@ -97,3 +97,7 @@ heroku logs --tail --app chaudha4-cat-or-dog
 ```
 
 ![GitHub Logo](Screenshot.png)
+
+# Useful links
+https://towardsdatascience.com/easy-image-classification-with-tensorflow-2-0-f734fee52d13
+https://www.kdnuggets.com/2020/05/build-deploy-machine-learning-web-app.html

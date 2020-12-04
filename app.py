@@ -67,8 +67,9 @@ def restore_model(name="cats_dogs_trained_model", verbose=False):
     return model
 
 def normalize_image(file, verbose=False):
-    IMG_HEIGHT = 150
-    IMG_WIDTH = 150
+    IMG_HEIGHT = 160    # should match model
+    IMG_WIDTH = 160     # should match model
+    
     img = tf.keras.preprocessing.image.load_img(file, target_size=(IMG_HEIGHT, IMG_WIDTH))
     img_array = tf.keras.preprocessing.image.img_to_array(img)
     if verbose:
