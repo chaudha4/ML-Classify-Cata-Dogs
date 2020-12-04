@@ -1,30 +1,26 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://chaudha4-cat-or-dog.herokuapp.com/)
+[Go To Heroku Instance](https://chaudha4-cat-or-dog.herokuapp.com/)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master)
 
 
 # Machine Learning with Python - Cat and Dog Image Classifier
 
-This Project uses TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs with at least 63% accuracy.
+This Project uses TensorFlow 2.0 and Keras to create a convolutional neural network that correctly classifies images of cats and dogs with 96% accuracy.
 
-If you want to use a pre-trained model, just launch the [index.ipynb](./index.ipynb) notebook.
+A running instance is deployed at https://chaudha4-cat-or-dog.herokuapp.com/
 
-For training the model with additional dataset, go to the [cat_dog_image_classifier.ipynb](./cat_dog_image_classifier.ipynb)
+You can also launch the notebook at https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master
 
 ## Model Summary
 
-![GitHub Logo](model.png)
+The model is built on top of a pre-trained MobileNetV2 model as the feature detector. MobileNetV2 is the second iteration of MobileNet released by Google with the goal of being smaller and more lightweight than models like ResNet and Inception.
 
-# Python environment
 
-A Binder-compatible repo with a `requirements.txt` file.
-
-Access this Binder at the following URL
-
-https://mybinder.org/v2/gh/chaudha4/ML-Classify-Cats-Dogs/master
+# Python environment (Build Locally)
+First, clone the repo. Set up git etc.
 
 ## Check what is already installed
 Use `pip3 list` to see a list of installed packages.
