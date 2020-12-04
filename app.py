@@ -55,7 +55,7 @@ def upload_file():
     return render_template("upload.html")
 
 
-def restore_model(name="cats_dogs_trained_model", verbose=False):
+def restore_model(name="trained_model_96percent_accurate", verbose=False):
     if not os.path.exists(name):
         raise Exception(f"Cannot find {name} model to restore.")
     
