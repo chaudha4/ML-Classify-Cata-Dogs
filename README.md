@@ -18,6 +18,9 @@ You can also launch the notebook at https://mybinder.org/v2/gh/chaudha4/ML-Class
 
 The model is built on top of a pre-trained MobileNetV2 model as the feature detector. MobileNetV2 is the second iteration of MobileNet released by Google with the goal of being smaller and more lightweight than models like ResNet and Inception.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chaudha4/ML-Classify-Cats-Dogs/blob/master/cat_dog_image_classifier-96percent_accuracy.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/chaudha4/ML-Classify-Cats-Dogs/blob/master/cat_dog_image_classifier-96percent_accuracy.ipynb)
 
 # Python environment (Build Locally)
 First, clone the repo. Set up git etc.
